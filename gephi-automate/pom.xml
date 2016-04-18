@@ -1,0 +1,101 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>fr.sparna.tours</groupId>
+    <artifactId>gephi-automate</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>Sparna : Gephi Automation</name>
+    <description>Automates Gephi generation</description>
+
+    <organization>
+        <name>Sparna</name>
+        <url>http://www.sparna.fr/</url>
+    </organization>
+
+    <dependencies>
+
+		<dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+		<dependency>
+			<groupId>org.openrdf.sesame</groupId>
+			<artifactId>sesame-runtime</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>fr.sparna.commons</groupId>
+			<artifactId>sparna-commons-lang</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>fr.sparna.commons</groupId>
+			<artifactId>sparna-commons-io</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>fr.sparna.commons</groupId>
+			<artifactId>sparna-commons-xml</artifactId>
+		</dependency>
+
+		<!-- OWLIM for runtime only -->
+		<!--
+	    <dependency>
+			<groupId>com.ontotext</groupId>
+			<artifactId>owlim-lite</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		-->
+
+		<!-- necessaire seulement lorsqu'on utilise un Endpoint HTTP -->
+		<dependency>
+			<groupId>commons-http</groupId>
+			<artifactId>commons-http</artifactId>
+			<version>1.1</version>
+			<scope>runtime</scope>
+		</dependency>  
+		
+		<!-- necessaire seulement lorsqu'on utilise un Endpoint HTTP -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!--
+		<dependency>
+            <groupId>virtuoso.jdbc</groupId>
+            <artifactId>virtjdbc4</artifactId>
+            <version>4-3.69</version>
+            <scope>system</scope>
+  			<systemPath>${basedir}/lib/virtuoso/jdbc/4-3.69/virtjdbc4.jar</systemPath>
+  			<optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>virtuoso.sesame2</groupId>
+            <artifactId>virt_sesame2</artifactId>
+            <version>2.7.3</version>
+            <scope>system</scope>
+  			<systemPath>${basedir}/lib/virtuoso/sesame2/2.7/virt_sesame2.jar</systemPath>
+  			<optional>true</optional>
+        </dependency>
+    	-->
+ 
+    </dependencies>
+
+</project>

@@ -1,2 +1,2 @@
-# cartographiemediawiki
-Construire une cartographie de données liées avec Sémentique Média Wikie
+# Cartographie Avec Semantic Media Wiki
+Construire une cartographie de données liées avec Semantic Media Wiki
