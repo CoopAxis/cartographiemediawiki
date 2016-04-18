@@ -1,0 +1,104 @@
+<noinclude>
+Ceci est le formulaire « Organisation ».
+Pour créer une page avec ce formulaire, entrez le nom de la page ci-dessous ;
+si une page avec ce nom existe déjà, vous serez dirigé vers un formulaire pour l’éditer.
+
+
+{{#forminput:form=Organisation}}
+
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Organisation}}}
+{| class="formtable"
+! Raison sociale:
+| {{{field|Nom}}}
+<i>La raison sociale "officielle" de l'organisation. Celle-ci peut être différente du nom de la page sous laquelle la fiche à été créée.</i>
+|-
+! Autre nom:
+| {{{field|Autre nom}}}
+<i>Un autre nom sous lequel est connu l'organisation (nom usuel, alias, synonyme)</i>
+|-
+! Type:
+| {{{field|Type}}}
+<i>Le type de cette organisation, si applicable.</i>
+|-
+! Statut:
+| {{{field|Statut}}}
+<i>Le statut juridique de l'organisation, si applicable.</i>
+|-
+! SIREN:
+| {{{field|SIREN}}}
+<i>Le SIREN, si applicable.</i>
+|-
+! Code APE:
+| {{{field|codeAPE}}}
+<i>Un seul code APE pour l'organisation.</i>
+|-
+! Adresse:
+| {{{field|Adresse}}}
+<i>L'adresse postale de l'organisation</i>
+|-
+! Lieux:
+| {{{field|Établissement|input type=two listboxes|values from category=Lieu|size=5}}
+| ?Établissement
+| sort=Établissement}} }}}
+<i>Le (ou les) lieux dans lequel l'organisation a ses locaux ou a une implication particulière.</i>
+|-
+! Nombre d'employés:
+| {{{field|nbEmployes|input type=number}}}
+<i>Le nombre de personnes qui travaillent dans l'organisation.</i>
+|-
+! Contact(s):
+| {{{field|Contact|property=ContactPoint|input type=text with autocomplete|values from category=Person}}}
+<i>La (ou les) personne qui est le contact principal de l'organisation. Commencer à taper pour rechercher une valeur, puis choisissez dans la liste. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Organisation parente:
+| {{{field|OrganisationParente|property=Organisation parente|input type=text with autocomplete|values from category=Organisation}}}
+<i>L'organisation à laquelle celle-ci est rattachée (un labo de l'université, un service de l'agglo, etc.). Commencer à taper pour rechercher une valeur, puis choisissez dans la liste. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Site Web:
+| {{{field|Web}}}
+<i>Le site web de l'organisation</i>
+|-
+! Facebook:
+| {{{field|Facebook}}}
+<i>La page Facebook officielle de l'organisation.</i>
+|-
+! Adhérente de:
+| {{{field|MembreDe|property=Est adherent de|input type=tokens|values from category=Organisation}}}
+<i>Les associations dont celle-ci est adhérente. Commencer à taper pour rechercher une valeur, puis choisissez dans la liste. Séparez les valeurs par des virgules. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Fournisseur de:
+| {{{field|FournisseurDe|property=Est fournisseur de|input type=tokens|values from category=Organisation}}}
+<i>Les organisations dont celle-ci est fournisseur. Commencer à taper pour rechercher une valeur, puis choisissez dans la liste. Séparez les valeurs par des virgules. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Client de:
+| {{{field|ClientDe|property=Est client de|input type=tokens|values from category=Organisation}}}
+<i>Les organisations dont celle-ci est cliente. Commencer à taper pour rechercher une valeur, puis choisissez dans la liste. Séparez les valeurs par des virgules. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Collabore avec:
+| {{{field|CollaboreAvec|property=Collabore avec|input type=tokens|values from category=Organisation}}}
+<i>Les organisations avec lesquelles celle-ci collabore. Commencer à taper pour rechercher une valeur, puis choisissez dans la liste. Séparez les valeurs par des virgules. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Détient du capital dans:
+| {{{field|DetientDuCapitalDans|property=Detient du capital dans|input type=tokens|values from category=Organisation}}}
+<i>Les organisations dans lesquelles celle-ci est associée (détient du capital). Commencer à taper pour rechercher, puis choisissez dans la liste. Séparez les valeurs par des virgules. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Source(s):
+| {{{field|Source|input type=text}}}
+<i>La ou les sources des données de cette fiche (valeurs libres). Séparez les valeurs par une virgule.</i>
+|}
+{{{end template}}}
+
+'''Texte libre :'''
+
+<i>Le reste de la fiche avec une mise en forme libre. Voir [http://www.mediawiki.org/wiki/Help:Formatting/fr les explications sur les opérateurs de mise en forme]. </i>
+{{{standard input|free text|rows=10|editor=wikieditor}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>

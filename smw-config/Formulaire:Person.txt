@@ -1,0 +1,42 @@
+<noinclude>
+Ceci est le formulaire « Person ».
+Pour créer une page avec ce formulaire, entrez le nom de la page ci-dessous ;
+si une page avec ce nom existe déjà, vous serez dirigé vers un formulaire pour l’éditer.
+
+
+{{#forminput:form=Person}}
+
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Person}}}
+{| class="formtable"
+! Prénom et Nom :
+| {{{field|Prénom Nom|input type=text}}}
+<i>Le prénom suivi du nom de la personne, par exemple "Jean Dupont".</i>
+|-
+! Travaille à:
+| {{{field|TravailleA|property=Travaille a|input type=tokens|values from category=Organisation}}}
+<i>La (ou les) organisations où travaille cette personne. Commencer à taper pour rechercher, puis choisissez dans la liste. Séparez les valeurs par des virgules. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Adhérent de:
+| {{{field|MembreDe|property=Est adherent de|input type=tokens|values from category=Organisation}}}
+<i>Les organisations dont cette personne est adhérente. Commencer à taper pour rechercher, puis choisissez dans la liste. Séparez les valeurs par des virgules. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Détient du capital dans:
+| {{{field|DetientDuCapitalDans|property=Detient du capital dans|input type=tokens|values from category=Organisation}}}
+<i>Les organisations dans lesquelles cette personne détient du capital. Commencer à taper pour rechercher, puis choisissez dans la liste. Séparez les valeurs par des virgules. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|}
+{{{end template}}}
+
+'''Texte libre :'''
+
+<i>Le reste de la fiche avec une mise en forme libre. Voir [http://www.mediawiki.org/wiki/Help:Formatting/fr les explications sur les opérateurs de mise en forme]. </i>
+{{{standard input|free text|rows=10|editor=wikieditor}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
