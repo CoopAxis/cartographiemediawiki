@@ -1,0 +1,2858 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2015-02-05">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="namespace" title="namespace" type="string" />
+      <attribute id="SparqlID" title="SparqlID" type="string" />
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="Culture Libre et Créations Collectives">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Culture_Libre_et_Cr-C3-A9ations_Collectives" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="7.5" />
+        </attvalues>
+        <viz:size value="1.0605042" />
+        <viz:position x="9.876882" y="-7.6478143" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="2" label="Cyrille Giquello">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Cyrille_Giquello" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.7333333333333334" />
+          <attvalue for="betweenesscentrality" value="15.0" />
+        </attvalues>
+        <viz:size value="1.1210084" />
+        <viz:position x="22.718138" y="-3.3577883" z="0.0" />
+        <viz:color r="243" g="205" b="186" />
+      </node>
+      <node id="3" label="CoopAxis">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/CoopAxis" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.111111111111111" />
+          <attvalue for="betweenesscentrality" value="297.33333333333337" />
+        </attvalues>
+        <viz:size value="3.3986554" />
+        <viz:position x="24.377447" y="15.770017" z="0.0" />
+        <viz:color r="212" g="107" b="97" />
+      </node>
+      <node id="4" label="Artefacts">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Artefacts" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="13.833333333333332" />
+        </attvalues>
+        <viz:size value="1.1115966" />
+        <viz:position x="9.330736" y="-21.69767" z="0.0" />
+        <viz:color r="246" g="215" b="194" />
+      </node>
+      <node id="5" label="Laure Vivier">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Laure_Vivier" />
+          <attvalue for="eccentricity" value="0.0" />
+          <attvalue for="closnesscentrality" value="0.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="8.446361" y="-38.586864" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="6" label="Pépinière d'entreprises Startinbox">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/P-C3-A9pini-C3-A8re_d-27entreprises_Startinbox" />
+          <attvalue for="eccentricity" value="0.0" />
+          <attvalue for="closnesscentrality" value="0.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="52.44983" y="-19.967398" z="0.0" />
+        <viz:color r="235" g="181" b="163" />
+      </node>
+      <node id="7" label="ETICs">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/ETICs" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.8" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="13.293666" y="9.656415" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="8" label="Palo Altours">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Palo_Altours" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.7777777777777777" />
+          <attvalue for="betweenesscentrality" value="495.83333333333337" />
+        </attvalues>
+        <viz:size value="5.0" />
+        <viz:position x="91.30054" y="6.895677" z="0.0" />
+        <viz:color r="189" g="34" b="30" />
+      </node>
+      <node id="9" label="Julien Dargaisse">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Julien_Dargaisse" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4444444444444446" />
+          <attvalue for="betweenesscentrality" value="85.0" />
+        </attvalues>
+        <viz:size value="1.6857142" />
+        <viz:position x="121.89229" y="12.116756" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="10" label="Centre &amp; TIC">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Centre_-26_TIC" />
+          <attvalue for="eccentricity" value="2.0" />
+          <attvalue for="closnesscentrality" value="1.5" />
+          <attvalue for="betweenesscentrality" value="312.0" />
+        </attvalues>
+        <viz:size value="3.5169747" />
+        <viz:position x="-62.330177" y="4.9237676" z="0.0" />
+        <viz:color r="179" g="0" b="0" />
+      </node>
+      <node id="11" label="BuzzleMe">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/BuzzleMe" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4444444444444446" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="127.33814" y="13.939669" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="12" label="FunLab">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/FunLab" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.3" />
+          <attvalue for="betweenesscentrality" value="24.0" />
+        </attvalues>
+        <viz:size value="1.1936134" />
+        <viz:position x="76.21926" y="33.224003" z="0.0" />
+        <viz:color r="244" g="210" b="190" />
+      </node>
+      <node id="13" label="Webschool Tours">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Webschool_Tours" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="12.0" />
+        </attvalues>
+        <viz:size value="1.0968068" />
+        <viz:position x="27.932497" y="-10.622115" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="14" label="Interfaces">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Interfaces" />
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="56.431583" y="-53.42216" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="15" label="Pepinière d'entreprises Startère">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Pepini-C3-A8re_d-27entreprises_Start-C3-A8re" />
+          <attvalue for="eccentricity" value="0.0" />
+          <attvalue for="closnesscentrality" value="0.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="57.204468" y="-66.129196" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="16" label="Sparna">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Sparna" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="10.0" />
+        </attvalues>
+        <viz:size value="1.0806723" />
+        <viz:position x="49.67712" y="8.380611" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="17" label="Thomas Francart">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Thomas_Francart" />
+          <attvalue for="eccentricity" value="7.0" />
+          <attvalue for="closnesscentrality" value="4.363636363636363" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="53.08746" y="15.89557" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="18" label="18mars">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/18mars" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.5833333333333335" />
+          <attvalue for="betweenesscentrality" value="1.0" />
+        </attvalues>
+        <viz:size value="1.0080673" />
+        <viz:position x="71.43594" y="39.46972" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="19" label="Sébastien Mennetret">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/S-C3-A9bastien_Mennetret" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="2.8333333333333335" />
+          <attvalue for="betweenesscentrality" value="10.0" />
+        </attvalues>
+        <viz:size value="1.0806723" />
+        <viz:position x="77.90706" y="50.529675" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="20" label="Sophie Charlat">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Sophie_Charlat" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.090909090909091" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-1.3266009" y="52.572285" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="21" label="ESTEN">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/ESTEN" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.3" />
+          <attvalue for="betweenesscentrality" value="23.0" />
+        </attvalues>
+        <viz:size value="1.1855462" />
+        <viz:position x="-1.9731209" y="38.50732" z="0.0" />
+        <viz:color r="247" g="220" b="199" />
+      </node>
+      <node id="22" label="Audiency">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Audiency" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.3636363636363638" />
+          <attvalue for="betweenesscentrality" value="10.0" />
+        </attvalues>
+        <viz:size value="1.0806723" />
+        <viz:position x="77.41598" y="-17.060448" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="23" label="Julien Nédélec">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Julien_N-C3-A9d-C3-A9lec" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.272727272727273" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="77.59722" y="-14.024511" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="24" label="Beemotion">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Beemotion" />
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="57.61518" y="-34.13235" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="25" label="BTG Communication">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/BTG_Communication" />
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="53.06318" y="-34.966324" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="26" label="Cré-sol">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Cr-C3-A9-2Dsol" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.7" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="39.84699" y="-10.379804" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="27" label="Jean-David Rezaioff">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Jean-2DDavid_Rezaioff" />
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="157.0" />
+        </attvalues>
+        <viz:size value="2.2665546" />
+        <viz:position x="-94.636086" y="8.800177" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="28" label="My French Office">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/My_French_Office" />
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="2.0" />
+        </attvalues>
+        <viz:size value="1.0161345" />
+        <viz:position x="-104.54441" y="10.884579" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="29" label="Andra Rezaioff">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Andra_Rezaioff" />
+          <attvalue for="eccentricity" value="2.0" />
+          <attvalue for="closnesscentrality" value="1.6666666666666667" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-119.284584" y="16.789612" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="30" label="Ackwa">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Ackwa" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="1.7391304347826086" />
+          <attvalue for="betweenesscentrality" value="19.0" />
+        </attvalues>
+        <viz:size value="1.1532773" />
+        <viz:position x="-33.066875" y="40.24438" z="0.0" />
+        <viz:color r="237" g="186" b="168" />
+      </node>
+      <node id="31" label="Néréide">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/N-C3-A9r-C3-A9ide" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="21.0" />
+        </attvalues>
+        <viz:size value="1.1694118" />
+        <viz:position x="-59.359425" y="94.39524" z="0.0" />
+        <viz:color r="243" g="205" b="186" />
+      </node>
+      <node id="32" label="Une Image à Part">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Une_Image_-C3-A0_Part" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="5.0" />
+        </attvalues>
+        <viz:size value="1.0403361" />
+        <viz:position x="-78.0838" y="35.21677" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="33" label="Gildas Noël">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Gildas_No-C3-ABl" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="2.5652173913043477" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-48.306877" y="35.44521" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="34" label="AFUP">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/AFUP" />
+          <attvalue for="eccentricity" value="0.0" />
+          <attvalue for="closnesscentrality" value="0.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-42.218796" y="52.774853" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="35" label="ESOPE">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/ESOPE" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="2.6923076923076925" />
+          <attvalue for="betweenesscentrality" value="14.0" />
+        </attvalues>
+        <viz:size value="1.1129411" />
+        <viz:position x="-21.263853" y="17.664282" z="0.0" />
+        <viz:color r="247" g="220" b="199" />
+      </node>
+      <node id="36" label="Tic&amp;Doc">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Tic-26Doc" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.4615384615384617" />
+          <attvalue for="betweenesscentrality" value="7.5" />
+        </attvalues>
+        <viz:size value="1.0605042" />
+        <viz:position x="-21.960463" y="25.094921" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="37" label="CEFIM">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/CEFIM" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.8888888888888888" />
+          <attvalue for="betweenesscentrality" value="127.0" />
+        </attvalues>
+        <viz:size value="2.0245378" />
+        <viz:position x="17.629099" y="30.329908" z="0.0" />
+        <viz:color r="246" g="215" b="194" />
+      </node>
+      <node id="38" label="Ambin Informatique">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Ambin_Informatique" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="2.727272727272727" />
+          <attvalue for="betweenesscentrality" value="9.0" />
+        </attvalues>
+        <viz:size value="1.072605" />
+        <viz:position x="-35.335594" y="22.88605" z="0.0" />
+        <viz:color r="247" g="220" b="199" />
+      </node>
+      <node id="39" label="ADDICTIC">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/ADDICTIC" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="7.0" />
+        </attvalues>
+        <viz:size value="1.0564706" />
+        <viz:position x="-118.84148" y="-48.217422" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="40" label="Fabienne Grimault">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Fabienne_Grimault" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-127.97862" y="-55.95104" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="41" label="Matthieu Rossi">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Matthieu_Rossi" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-14.21084" y="-53.681297" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="42" label="Itinéraire B">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Itin-C3-A9raire_B" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="8.0" />
+        </attvalues>
+        <viz:size value="1.0645378" />
+        <viz:position x="-10.180543" y="-39.163536" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="43" label="Régis Chevrinais">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/R-C3-A9gis_Chevrinais" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-127.066315" y="-62.37688" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="44" label="Éric Emmanuelli">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/-C3-89ric_Emmanuelli" />
+          <attvalue for="eccentricity" value="7.0" />
+          <attvalue for="closnesscentrality" value="3.3636363636363638" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-47.717453" y="21.61546" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="45" label="Antoine Périgne">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Antoine_P-C3-A9rigne" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.3" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="8.347486" y="1.2927831" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="46" label="Claire Gervais">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Claire_Gervais" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-84.67808" y="-49.27249" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="47" label="AOUKI">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/AOUKI" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="3.0" />
+        </attvalues>
+        <viz:size value="1.0242016" />
+        <viz:position x="-79.321144" y="-32.95841" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="48" label="Olivier Souchon">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Olivier_Souchon" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-101.85054" y="-56.57486" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="49" label="Merkatic">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Merkatic" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="3.0" />
+        </attvalues>
+        <viz:size value="1.0242016" />
+        <viz:position x="-95.59239" y="-44.585487" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="50" label="MEDIASAT">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/MEDIASAT" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-66.74434" y="-11.31762" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="51" label="Nicolas Maubois">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Nicolas_Maubois" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.3636363636363638" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="112.321434" y="-55.085506" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="52" label="WaterMarketing">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/WaterMarketing" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="10.0" />
+        </attvalues>
+        <viz:size value="1.0806723" />
+        <viz:position x="109.54201" y="-42.991486" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="53" label="Franck Gauttron">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Franck_Gauttron" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4444444444444446" />
+          <attvalue for="betweenesscentrality" value="197.5" />
+        </attvalues>
+        <viz:size value="2.5932775" />
+        <viz:position x="27.277653" y="31.842943" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="54" label="Loïc Lequesne">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Lo-C3-AFc_Lequesne" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-95.50308" y="-16.230947" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="55" label="Olivier Ragain">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Olivier_Ragain" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-61.76454" y="-13.272223" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="56" label="Lérig Couprie">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/L-C3-A9rig_Couprie" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6153846153846154" />
+          <attvalue for="betweenesscentrality" value="16.5" />
+        </attvalues>
+        <viz:size value="1.1331092" />
+        <viz:position x="-7.7381573" y="7.5153613" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="57" label="Gesec">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Gesec" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="30.0" />
+        </attvalues>
+        <viz:size value="1.2420168" />
+        <viz:position x="-2.7371118" y="-129.25078" z="0.0" />
+        <viz:color r="238" g="191" b="172" />
+      </node>
+      <node id="58" label="Pauline Mispoulet">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Pauline_Mispoulet" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-1.5956163" y="-142.68016" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="59" label="Yves Lagreze">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Yves_Lagreze" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-4.8392477" y="-139.87216" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="60" label="Thierry Larcher">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Thierry_Larcher" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="6.8911695" y="-129.74515" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="61" label="Pascal Texereau">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Pascal_Texereau" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="2.6741152" y="-143.97006" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="62" label="Jean-Charles Charrier">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Jean-2DCharles_Charrier" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="3.223993" y="-139.39066" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="63" label="François Delcambre">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Fran-C3-A7ois_Delcambre" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="5.060667" y="-134.76627" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="64" label="Didier Dumont">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Didier_Dumont" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="7.8723726" y="-143.26474" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="65" label="Franck Pajot">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Franck_Pajot" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="8.343495" y="-137.61652" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="66" label="Philippe Risoul">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Philippe_Risoul" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="12.262011" y="-138.72371" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="67" label="Philippe Ottavy">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Philippe_Ottavy" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="11.038885" y="-132.50633" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="68" label="François Raimbaud">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Fran-C3-A7ois_Raimbaud" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-77.402985" y="-63.35459" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="69" label="Graphikoo">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Graphikoo" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="3.0" />
+        </attvalues>
+        <viz:size value="1.0242016" />
+        <viz:position x="-75.36686" y="-50.320824" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="70" label="IBU-Soft">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/IBU-2DSoft" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="3.0" />
+        </attvalues>
+        <viz:size value="1.0242016" />
+        <viz:position x="-62.984253" y="-47.61501" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="71" label="Ivan Buisson">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Ivan_Buisson" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-62.33957" y="-60.059444" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="72" label="Emmanuel Roc">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Emmanuel_Roc" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.090909090909091" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="3.6442127" y="53.880047" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="73" label="InnoVAticE">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/InnoVAticE" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="2.9" />
+          <attvalue for="betweenesscentrality" value="6.5" />
+        </attvalues>
+        <viz:size value="1.052437" />
+        <viz:position x="-14.601547" y="-2.7061944" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="74" label="Rémi Levy">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/R-C3-A9mi_Levy" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6666666666666665" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="1.793229" y="-15.1778345" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="75" label="Gaël Mallet">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Ga-C3-ABl_Mallet" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-9.9922" y="-54.200504" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="76" label="Mikii">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Mikii" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="7.0" />
+        </attvalues>
+        <viz:size value="1.0564706" />
+        <viz:position x="-37.48473" y="81.68286" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="77" label="Thibaut Lamanthe">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Thibaut_Lamanthe" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-32.97654" y="94.40109" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="78" label="Johan Beneval">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Johan_Beneval" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-24.592518" y="98.22369" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="79" label="Mille &amp; une">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Mille_-26_une" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="3.0" />
+        </attvalues>
+        <viz:size value="1.0242016" />
+        <viz:position x="-71.50324" y="53.10912" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="80" label="Hervé Poudret">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Herv-C3-A9_Poudret" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-72.25119" y="64.68813" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="81" label="Olivier Heintz">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Olivier_Heintz" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-64.069885" y="105.43732" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="82" label="Nicolas Malin">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Nicolas_Malin" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-55.33137" y="107.92744" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="83" label="Catherine Heintz">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Catherine_Heintz" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-54.820915" y="112.43996" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="84" label="Charles Steltzlen">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Charles_Steltzlen" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-60.394005" y="113.78398" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="85" label="Jean-Luc Malet">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Jean-2DLuc_Malet" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-60.369446" y="109.6228" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="86" label="NetPresta">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/NetPresta" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="3.0" />
+        </attvalues>
+        <viz:size value="1.0242016" />
+        <viz:position x="-86.2079" y="50.38787" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="87" label="Philippe Bouquet">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Philippe_Bouquet" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-90.385666" y="61.389656" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="88" label="ParAgence.fr">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/ParAgence.fr" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="7.0" />
+        </attvalues>
+        <viz:size value="1.0564706" />
+        <viz:position x="-89.46139" y="83.71064" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="89" label="Francois Gautard">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Francois_Gautard" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-93.76674" y="96.12344" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="90" label="Arnaud Viguié">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Arnaud_Vigui-C3-A9" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-88.489365" y="103.88237" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="91" label="Polytech Tours">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Polytech_Tours" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-78.32616" y="13.5017395" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="92" label="Shim Sham">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Shim_Sham" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="3.0" />
+        </attvalues>
+        <viz:size value="1.0242016" />
+        <viz:position x="-105.056335" y="44.962883" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="93" label="Cassia Sakarovitch">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Cassia_Sakarovitch" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-113.712326" y="54.82702" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="94" label="Stan Allain">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Stan_Allain" />
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-76.048615" y="220.744" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="95" label="Jean Stanislas Allain">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Jean_Stanislas_Allain" />
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-78.96634" y="219.96507" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="96" label="SUPINFO">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/SUPINFO" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.1818181818181817" />
+          <attvalue for="betweenesscentrality" value="32.0" />
+        </attvalues>
+        <viz:size value="1.2581513" />
+        <viz:position x="4.1912866" y="61.07781" z="0.0" />
+        <viz:color r="246" g="215" b="194" />
+      </node>
+      <node id="97" label="Joseph Rousseau">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Joseph_Rousseau" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.090909090909091" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="2.6174011" y="73.27979" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="98" label="Nathalie Berthonneau">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Nathalie_Berthonneau" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-3.2680216" y="76.97004" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="99" label="Elise Gestin">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Elise_Gestin" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-6.622671" y="73.73551" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="100" label="TGA Production">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/TGA_Production" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="3.0" />
+        </attvalues>
+        <viz:size value="1.0242016" />
+        <viz:position x="-115.81918" y="31.316021" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="101" label="Thierry Gautier">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Thierry_Gautier" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-127.171936" y="38.188774" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="102" label="Tours Métropole Numérique">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Tours_M-C3-A9tropole_Num-C3-A9rique" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="11.0" />
+        </attvalues>
+        <viz:size value="1.0887395" />
+        <viz:position x="-148.93367" y="26.255337" z="0.0" />
+        <viz:color r="247" g="220" b="199" />
+      </node>
+      <node id="103" label="Rémi Carrière">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/R-C3-A9mi_Carri-C3-A8re" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-159.01349" y="29.166872" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="104" label="Jacques Beauvois">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Jacques_Beauvois" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-160.81474" y="34.978912" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="105" label="Sophie Campourcy">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Sophie_Campourcy" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-163.3849" y="27.118975" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="106" label="TX2 Concept">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/TX2_Concept" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-80.83614" y="8.563241" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="107" label="Sébastien Duveau">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/S-C3-A9bastien_Duveau" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-91.9958" y="38.31353" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="108" label="VERT.COM">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/VERT.COM" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="1.75" />
+          <attvalue for="betweenesscentrality" value="3.0" />
+        </attvalues>
+        <viz:size value="1.0242016" />
+        <viz:position x="-119.10899" y="-14.923819" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="109" label="Claude Foubert">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Claude_Foubert" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.5" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-131.48082" y="-19.33538" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="110" label="Web Computer Tours">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Web_Computer_Tours" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-81.005646" y="4.275853" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="111" label="Mathieu Abassin">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Mathieu_Abassin" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-84.837746" y="0.5873431" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="112" label="Vincent Barousse">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Vincent_Barousse" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-80.48507" y="-0.4990374" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="113" label="Rémi Carakos">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/R-C3-A9mi_Carakos" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-83.39532" y="-5.1543207" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="114" label="Amandine Cauchy">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Amandine_Cauchy" />
+          <attvalue for="eccentricity" value="7.0" />
+          <attvalue for="closnesscentrality" value="3.1666666666666665" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-29.139103" y="-17.102592" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="115" label="Vincent Chaigneau">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Vincent_Chaigneau" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-80.402016" y="-8.661236" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="116" label="Marc Frèrebeau">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Marc_Fr-C3-A8rebeau" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="2.5625" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-16.579918" y="-15.417357" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="117" label="Patrice-Alain Gauron">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Patrice-2DAlain_Gauron" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-77.159935" y="-3.032723" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="118" label="Étienne Guérard">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/-C3-89tienne_Gu-C3-A9rard" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-77.430016" y="-12.3894825" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="119" label="Daniel Herskovits">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Daniel_Herskovits" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-75.18069" y="-7.375828" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="120" label="Philippe Lalanne">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Philippe_Lalanne" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-72.83244" y="-14.900523" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="121" label="Agathe Peaudeau">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Agathe_Peaudeau" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-71.50269" y="-10.319788" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="122" label="Emmanuel Thierry">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Emmanuel_Thierry" />
+          <attvalue for="eccentricity" value="3.0" />
+          <attvalue for="closnesscentrality" value="2.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-67.03758" y="-15.810074" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="123" label="Clearnox">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Clearnox" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="102.14102" y="-8.189134" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="124" label="Cédric Fouassier">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/C-C3-A9dric_Fouassier" />
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-40.890255" y="-191.59483" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="125" label="CS Tech">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/CS_Tech" />
+          <attvalue for="eccentricity" value="0.0" />
+          <attvalue for="closnesscentrality" value="0.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-38.830193" y="-195.91685" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="126" label="Stéphane Badin">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/St-C3-A9phane_Badin" />
+          <attvalue for="eccentricity" value="1.0" />
+          <attvalue for="closnesscentrality" value="1.0" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="-35.01743" y="-193.12918" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="127" label="EPHORI">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/EPHORI" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="10.0" />
+        </attvalues>
+        <viz:size value="1.0806723" />
+        <viz:position x="121.20023" y="-38.41012" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="128" label="Jean-Louis Jarry">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Jean-2DLouis_Jarry" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.3636363636363638" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="126.22213" y="-49.791477" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="129" label="Gomès Brothers">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Gom-C3-A8s_Brothers" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.3636363636363638" />
+          <attvalue for="betweenesscentrality" value="10.0" />
+        </attvalues>
+        <viz:size value="1.0806723" />
+        <viz:position x="86.59497" y="-32.345062" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="130" label="Jordan Gomès">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Jordan_Gom-C3-A8s" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.272727272727273" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="92.04678" y="-42.2773" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="131" label="M@rb.net">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/M@rb.net" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="21.0" />
+        </attvalues>
+        <viz:size value="1.1694118" />
+        <viz:position x="137.24" y="-53.902" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="132" label="Denis Barbarossa">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Denis_Barbarossa" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.3636363636363638" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="144.49736" y="-63.06616" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="133" label="Nina Camatta">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Nina_Camatta" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.25" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="140.84157" y="-69.32969" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="134" label="Nowly">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Nowly" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="11.0" />
+        </attvalues>
+        <viz:size value="1.0887395" />
+        <viz:position x="144.30634" y="-5.3080535" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="135" label="Manyssin THIN">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Manyssin_THIN" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.3636363636363638" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="156.88553" y="-8.960044" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="136" label="Orange">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Orange" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="106.1341" y="-6.2604012" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="137" label="Soraya">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Soraya" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="10.0" />
+        </attvalues>
+        <viz:size value="1.0806723" />
+        <viz:position x="140.72127" y="-21.871601" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="138" label="Alexis-Franck Gandubert">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Alexis-2DFranck_Gandubert" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.3636363636363638" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="151.51831" y="-28.519926" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="139" label="SYNTONIS">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/SYNTONIS" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="108.55123" y="-2.5432909" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="140" label="Tierce Partie">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Tierce_Partie" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="10.0" />
+        </attvalues>
+        <viz:size value="1.0806723" />
+        <viz:position x="151.34602" y="10.606447" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="141" label="Jean Leborgne">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Jean_Leborgne" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.3636363636363638" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="164.1536" y="10.465327" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="142" label="Tour(s)plus">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Tour(s)plus" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.3" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="61.79384" y="14.296268" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="143" label="WYZE">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/WYZE" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.3333333333333335" />
+          <attvalue for="betweenesscentrality" value="11.0" />
+        </attvalues>
+        <viz:size value="1.0887395" />
+        <viz:position x="111.56566" y="47.766712" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="144" label="Yohann Wypiorczyk">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Yohann_Wypiorczyk" />
+          <attvalue for="eccentricity" value="5.0" />
+          <attvalue for="closnesscentrality" value="3.25" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="122.37137" y="57.43343" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="145" label="Utelias">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Utelias" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="0.5" />
+        </attvalues>
+        <viz:size value="1.0040336" />
+        <viz:position x="42.636997" y="-3.5851498" z="0.0" />
+        <viz:color r="249" g="225" b="203" />
+      </node>
+      <node id="146" label="Fabien Vidal">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Fabien_Vidal" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.5454545454545454" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="39.248783" y="2.3195581" z="0.0" />
+        <viz:color r="250" g="230" b="208" />
+      </node>
+      <node id="147" label="Tours Emploi Travail'Aid">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Tours_Emploi_Travail-27Aid" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.8" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="33.16931" y="29.762508" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="148" label="Christophe Jollivet">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Christophe_Jollivet" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="110.22701" y="0.23348571" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="149" label="Cyrille Charron">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Cyrille_Charron" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="112.37349" y="4.773373" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="150" label="Dylan Lefaucheux">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Dylan_Lefaucheux" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="112.64855" y="13.016358" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="151" label="Hervé Decaux">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Herv-C3-A9_Decaux" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="92.78654" y="33.332577" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="152" label="Jean-Lou Lebars">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Jean-2DLou_Lebars" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.3" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="57.954784" y="27.30605" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="153" label="Julien Lavergne">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Julien_Lavergne" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="107.60825" y="4.3135304" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="154" label="Marie Gassie">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Marie_Gassie" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4166666666666665" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="130.07729" y="-3.0243447" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="155" label="Richard Renard">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Richard_Renard" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="109.55373" y="9.494159" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="156" label="Rodrigo Reyes">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Rodrigo_Reyes" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="112.08185" y="20.289793" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="157" label="Sylvain Lézier">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Sylvain_L-C3-A9zier" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="108.95908" y="16.527857" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="158" label="Valérie Leperlier-Roy">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Val-C3-A9rie_Leperlier-2DRoy" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="106.046295" y="12.511832" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="159" label="Vincent Halie">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Vincent_Halie" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.4545454545454546" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="88.742424" y="31.34217" z="0.0" />
+        <viz:color r="252" g="235" b="212" />
+      </node>
+      <node id="160" label="ADBS Centre">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/ADBS_Centre" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="107.41768" y="21.317833" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="161" label="JUG Tours">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/JUG_Tours" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="105.78579" y="25.33265" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="162" label="PolAU">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/PolAU" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="103.37313" y="17.929588" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="163" label="Réseau Entreprendre Val de Loire">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/R-C3-A9seau_Entreprendre_Val_de_Loire" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="101.44905" y="23.790932" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="164" label="Val de France Angels">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Val_de_France_Angels" />
+          <attvalue for="eccentricity" value="4.0" />
+          <attvalue for="closnesscentrality" value="2.6" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="98.10892" y="21.313917" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="165" label="CBR Conseil">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/CBR_Conseil" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.8" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="24.948101" y="37.175934" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="166" label="Digital Human">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Digital_Human" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.8" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="17.226278" y="25.491234" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="167" label="Fonds AC">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Fonds_AC" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.8" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="17.958899" y="35.59718" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="168" label="ID 37">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/ID_37" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.8" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="14.454445" y="21.932001" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="169" label="Aktan">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Aktan" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.8" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="12.347452" y="28.03805" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="170" label="Neogia">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Neogia" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.8" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="11.408908" y="17.625" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="171" label="Odyssée Création">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/Odyss-C3-A9e_Cr-C3-A9ation" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.8" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="9.926521" y="22.378885" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+      <node id="172" label="Résoudre">
+        <attvalues>
+          <attvalue for="namespace" value="http://smw.coopaxis.fr/id" />
+          <attvalue for="SparqlID" value="http://smw.coopaxis.fr/id/R-C3-A9soudre" />
+          <attvalue for="eccentricity" value="6.0" />
+          <attvalue for="closnesscentrality" value="3.8" />
+          <attvalue for="betweenesscentrality" value="0.0" />
+        </attvalues>
+        <viz:size value="1.0" />
+        <viz:position x="10.667473" y="13.496423" z="0.0" />
+        <viz:color r="254" g="240" b="217" />
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="2" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="1" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="2" target="1" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="2" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="2" target="4" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="2" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="2" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="2" target="12" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="2" target="13" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="3" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="3" target="53" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="4" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="4" target="5" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="4" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="7" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="8" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="8" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="8" target="9" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="8" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="9" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="9" target="11" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="10" target="27" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="11" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="11" target="9" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="12" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="12" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="13" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="14" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="14" target="15" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="16" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="16" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="16" target="17" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="17" target="16" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="18" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="18" target="19" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="19" target="12" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="19" target="18" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="20" target="21" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="21" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="21" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="22" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="22" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="22" target="23" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="23" target="22" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="24" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="25" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="26" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="26" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="27" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="27" target="28" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="28" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="28" target="27" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="29" target="28" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="30" target="3" label="http://smw.coopaxis.fr/id/Attribut-3AIs_adherent_of">
+        <attvalues />
+      </edge>
+      <edge source="30" target="10" label="http://smw.coopaxis.fr/id/Attribut-3AIs_adherent_of">
+        <attvalues />
+      </edge>
+      <edge source="30" target="21" label="http://smw.coopaxis.fr/id/Attribut-3AIs_working_with">
+        <attvalues />
+      </edge>
+      <edge source="30" target="31" label="http://smw.coopaxis.fr/id/Attribut-3AIs_working_with">
+        <attvalues />
+      </edge>
+      <edge source="30" target="32" label="http://smw.coopaxis.fr/id/Attribut-3AIs_working_with">
+        <attvalues />
+      </edge>
+      <edge source="30" target="33" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="30" target="34" label="http://smw.coopaxis.fr/id/Attribut-3AIs_adherent_of">
+        <attvalues />
+      </edge>
+      <edge source="30" target="35" label="http://smw.coopaxis.fr/id/Attribut-3AIs_associated_with">
+        <attvalues />
+      </edge>
+      <edge source="30" target="36" label="http://smw.coopaxis.fr/id/Attribut-3AIs_associated_with">
+        <attvalues />
+      </edge>
+      <edge source="30" target="37" label="http://smw.coopaxis.fr/id/Attribut-3AIs_working_with">
+        <attvalues />
+      </edge>
+      <edge source="30" target="38" label="http://smw.coopaxis.fr/id/Attribut-3AIs_working_with">
+        <attvalues />
+      </edge>
+      <edge source="31" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="31" target="81" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="32" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="32" target="107" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="33" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="33" target="30" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="35" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="35" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="35" target="36" label="http://smw.coopaxis.fr/id/Attribut-3AIs_associated_in">
+        <attvalues />
+      </edge>
+      <edge source="36" target="56" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="37" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="37" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="37" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="38" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="38" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="38" target="44" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="39" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="39" target="40" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="40" target="39" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="41" target="42" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="42" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="42" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="43" target="39" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="44" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="44" target="38" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="45" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="45" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="46" target="47" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="47" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="48" target="49" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="49" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="49" target="48" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="50" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="51" target="52" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="52" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="52" target="51" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="53" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="53" target="37" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="54" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="54" target="54" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="55" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="56" target="13" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="56" target="35" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="57" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="58" target="57" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="59" target="57" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="60" target="57" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="61" target="57" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="62" target="57" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="63" target="57" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="64" target="57" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="65" target="57" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="66" target="57" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="67" target="57" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="68" target="69" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="69" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="69" target="68" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="70" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="70" target="71" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="71" target="70" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="72" target="21" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="73" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="73" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="74" target="13" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="74" target="73" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="75" target="42" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="76" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="76" target="77" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="77" target="76" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="78" target="76" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="79" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="79" target="80" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="80" target="79" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="81" target="31" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="82" target="31" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="83" target="31" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="84" target="31" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="85" target="31" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="86" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="86" target="87" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="87" target="86" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="88" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="88" target="89" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="89" target="88" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="90" target="88" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="91" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="92" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="92" target="93" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="93" target="92" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="94" target="95" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="95" target="94" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="96" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="96" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="96" target="97" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="97" target="96" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="98" target="96" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="99" target="96" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="100" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="100" target="101" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="101" target="100" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="102" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="102" target="103" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="103" target="102" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="104" target="102" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="105" target="102" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="106" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="107" target="32" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="108" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="108" target="109" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="109" target="108" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="110" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="111" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="112" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="113" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="114" target="4" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="114" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="115" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="116" target="1" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="116" target="4" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="116" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="117" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="118" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="119" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="120" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="121" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="122" target="10" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="123" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="124" target="125" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="126" target="125" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="127" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="127" target="128" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="128" target="127" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="129" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="129" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="129" target="130" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="130" target="129" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="131" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="131" target="132" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="132" target="131" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="133" target="131" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="134" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="134" target="135" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="135" target="134" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="136" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="137" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="137" target="138" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="138" target="137" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="139" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="140" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="140" target="141" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="141" target="140" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="142" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="142" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="143" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="143" target="12" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="143" target="144" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="144" target="143" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="145" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="145" target="6" label="http://schema.org/location">
+        <attvalues />
+      </edge>
+      <edge source="145" target="146" label="http://schema.org/contactPoint">
+        <attvalues />
+      </edge>
+      <edge source="146" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="146" target="145" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="147" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="148" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="149" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="150" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="151" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="151" target="12" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="152" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="152" target="37" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="153" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="154" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="154" target="134" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="155" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="156" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="157" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="158" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="159" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="159" target="12" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="160" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="161" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="162" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="163" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="164" target="8" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="165" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="166" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="167" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="168" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="169" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="170" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="171" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+      <edge source="172" target="3" label="http://schema.org/memberOf">
+        <attvalues />
+      </edge>
+    </edges>
+  </graph>
+</gexf>
