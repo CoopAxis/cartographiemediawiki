@@ -1,0 +1,58 @@
+<noinclude>
+Ceci est le formulaire « Projet ».
+Pour créer une page avec ce formulaire, entrez le nom de la page ci-dessous ;
+si une page avec ce nom existe déjà, vous serez dirigé vers un formulaire pour l’éditer.
+
+
+{{#forminput:form=Projet}}
+
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Projet}}}
+{| class="formtable"
+! Titre:
+| {{{field|titre}}}
+<i>Le titre du projet, le nom sous lequel il est connu.</i>
+|-
+! Description:
+| {{{field|description|input type=textarea}}}
+<i>Une description libre, assez courte, du projet.</i>
+|-
+! Date de début :
+| {{{field|date de création}}}
+<i>La date à laquelle le projet a commencé.</i>
+|-
+! Porteurs:
+| {{{field|leader, initiateur|property=Porteur|input type=token|values from category=Organisation}}}
+<i>La ou les '''organisations''' qui portent le projet. Commencer à taper pour rechercher une valeur, puis choisissez dans la liste. Séparez les valeurs par des virgules. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Participants:
+| {{{field|collaborateur|property=Participant|input type=token|values from category=Organisation}}}
+<i>La ou les '''organisations''' qui participent au projet. Commencer à taper pour rechercher une valeur, puis choisissez dans la liste. Séparez les valeurs par des virgules. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Contacts:
+| {{{field|Contact|property=ContactPoint|input type=token with autocomplete|values from category=Person}}}
+<i>La ou les personnes qui est sont les principaux contacts pour le projet. Commencer à taper pour rechercher une valeur, puis choisissez dans la liste. Si la valeur que vous cherchez n'est pas dans la liste, vous pouvez quand même saisir son nom ici.</i>
+|-
+! Home page:
+| {{{field|home page}}}
+<i>Une page web donnant des informations du projet ou étant le résultat du projet.</i>
+|-
+! Blog ou documentation:
+| {{{field|blog ou documentation}}}
+<i>Une page web donnant des informations régulières sur le projet ou de la documentation sur celui-ci.</i>
+|}
+{{{end template}}}
+
+'''Texte libre :'''
+
+<i>Le reste de la fiche avec une mise en forme libre. Voir [http://www.mediawiki.org/wiki/Help:Formatting/fr les explications sur les opérateurs de mise en forme]. </i>
+{{{standard input|free text|rows=10|editor=wikieditor}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>

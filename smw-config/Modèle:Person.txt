@@ -1,0 +1,31 @@
+<noinclude>
+Ceci est le modèle « Person ». Il devrait être appelé selon le format suivant :
+<pre>
+{{Person
+|Prénom Nom=
+}}
+</pre>
+Modifier la page pour voir le texte du modèle.
+</noinclude><includeonly>{| border="0"  class="table table-condensed table-striped" style="margin-bottom: 20px;"
+! scope="col" width="20%" | ''Attribut''
+! scope="col" width="80%" | ''Valeur''
+|-
+! Prénom Nom
+| [[Name::{{{Prénom Nom|}}}]] 
+|-
+! Travaille à
+| {{#arraymap:{{{TravailleA|}}}|,|x|[[Travaille a::x]]}}
+|-
+! Membre de
+| {{#arraymap:{{{MembreDe|}}}|,|x|[[Est adherent de::x]]}}
+|-
+! Détient du capital dans
+| {{#arraymap:{{{DetientDuCapitalDans|}}}|,|x|[[Detient du capital dans::x]]}}
+|}
+
+----
+
+{{#ask: [[ContactPoint::{{FULLPAGENAME}}]] | intro='''Est point de contact pour''' :_ | limit=10 | searchlabel=... ''voir la suite'' }}
+
+[[Catégorie:Person]]
+</includeonly>

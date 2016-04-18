@@ -1,0 +1,114 @@
+<noinclude>
+Ceci est le modèle « Organisation ». Il devrait être appelé selon le format suivant :
+<pre>
+{{Organisation
+...
+}}
+</pre>
+Modifier la page pour voir le texte du modèle.
+</noinclude><includeonly>{| border="0"  class="table table-condensed table-striped" style="margin-bottom: 20px;"
+! scope="col" width="20%" | ''Attribut''
+! scope="col" width="80%" | ''Valeur''
+|-
+! Raison sociale
+| [[legalName::{{{Nom|}}}]] 
+|-
+! Autre nom
+| [[alternateName::{{{Autre nom|}}}]] 
+|-
+! Type
+| {{#arraymap:{{{Type|}}}|,|x|[[type::x]]}}
+|-
+! Statut
+| {{#arraymap:{{{Statut|}}}|,|x|[[status::x]]}}
+|-
+! SIREN
+| [[siren::{{{SIREN|}}}]] 
+|-
+! code APE/NAF
+| [[code_APE::{{{codeAPE|}}}]] 
+|-
+! Adresse
+| [[address::{{{Adresse|}}}]] 
+|-
+! Lieux
+| {{#arraymap:{{{Établissement|}}}|,|x|[[location::x]]}}
+|-
+! Nombre d'employés
+| [[Nombre d'employes::{{{nbEmployes|}}}]] 
+|-
+! Contacts
+| {{#arraymap:{{{Contact|}}}|,|x|[[contactPoint::x]]}}
+|-
+! Organisation parente
+| [[Organisation parente::{{{OrganisationParente|}}}]] 
+|-
+! Web
+| [[web_url::{{{Web|}}}]] 
+|-
+! Facebook
+| [[facebook_url::{{{Facebook|}}}]] 
+|-
+! Adhérente de
+| {{#arraymap:{{{MembreDe|}}}|,|x|[[Est adherent de::x]]}}
+|-
+! Fournisseur de
+| {{#arraymap:{{{FournisseurDe|}}}|,|x|[[Est fournisseur de::x]]}}
+|-
+! Client de
+| {{#arraymap:{{{ClientDe|}}}|,|x|[[Est client de::x]]}}
+|-
+! Collabore avec
+| {{#arraymap:{{{CollaboreAvec|}}}|,|x|[[Collabore avec::x]]}}
+|-
+! Détient du capital dans
+| {{#arraymap:{{{DetientDuCapitalDans|}}}|,|x|[[Detient du capital dans::x]]}}
+|}
+Source(s) : [[Source::{{{Source|}}}]] 
+
+----
+
+{{#ask: [[Organisation parente::{{SUBJECTPAGENAME}}]]
+| intro='''Sous-organisations de {{SUBJECTPAGENAME}}''' :_
+| limit=10
+| searchlabel=... ''voir la suite''
+| outro= <br /> }}
+{{#ask: [[Travaille a::{{SUBJECTPAGENAME}}]] 
+| intro='''Personnes travaillant pour {{SUBJECTPAGENAME}}''' :_
+| limit=10
+| searchlabel=... ''voir la suite''
+| outro= <br /> }}
+{{#ask: [[Est adherent de::{{SUBJECTPAGENAME}}]]
+| intro='''{{SUBJECTPAGENAME}} a pour adhérents''' :_
+| limit=10
+| searchlabel=... ''voir la suite''
+| outro= <br /> }}
+{{#ask: [[Est client de::{{SUBJECTPAGENAME}}]]
+| intro='''{{SUBJECTPAGENAME}} est aussi fournisseur de''' :_
+| limit=10
+| searchlabel=... ''voir la suite''
+| outro= <br /> }}
+{{#ask: [[Est fournisseur de::{{SUBJECTPAGENAME}}]]
+| intro='''{{SUBJECTPAGENAME}} est aussi client de''' :_
+| limit=10
+| searchlabel=... ''voir la suite''
+| outro= <br /> }}
+{{#ask: [[Collabore avec::{{SUBJECTPAGENAME}}]]
+| intro='''{{SUBJECTPAGENAME}} collabore aussi avec''' :_
+| limit=10
+| searchlabel=... ''voir la suite''
+| outro= <br /> }}
+{{#ask: [[Participant::{{FULLPAGENAME}}]]
+| intro='''{{SUBJECTPAGENAME}} participe à''' :_
+| limit=10
+| searchlabel=... ''voir la suite''
+| outro= <br /> }}
+{{#ask: [[Porteur::{{FULLPAGENAME}}]]
+| intro='''{{SUBJECTPAGENAME}} porte''' :_
+| limit=10
+| searchlabel=... ''voir la suite''
+| outro= <br /> }}
+
+[[Catégorie:Organisation]]
+
+</includeonly>

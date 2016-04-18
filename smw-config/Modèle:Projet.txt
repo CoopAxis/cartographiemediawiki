@@ -1,0 +1,48 @@
+<noinclude>
+Ceci est le modèle « Projet ». Il devrait être appelé selon le format suivant :
+<pre>
+{{Projet
+|titre=
+|description=
+|date de création=
+|porteurs=
+|participants=
+|contacts=
+|home page=
+|leader, initiateur=
+|collaborateur=
+|blog ou documentation=
+}}
+</pre>
+Modifier la page pour voir le texte du modèle.
+</noinclude><includeonly>{|border="0"  class="table table-condensed table-striped" style="margin-bottom: 20px;"
+! scope="col" width="20%" | ''Attribut''
+! scope="col" width="80%" | ''Valeur''
+|-
+! titre
+| [[titre::{{{titre|}}}]] 
+|-
+! description
+| [[description::{{{description|}}}]] 
+|-
+! date de création
+| [[date de création::{{{date de création|}}}]] 
+|-
+! porteurs
+| {{#arraymap:{{{leader, initiateur|}}}|,|x|[[porteur::x]]}}
+|-
+! participants
+| {{#arraymap:{{{collaborateur|}}}|,|x|[[participant::x]]}}
+|-
+! contacts
+| {{#arraymap:{{{Contact|}}}|,|x|[[contactPoint::x]]}}
+|-
+! home page
+| [[home page::{{{home page|}}}]] 
+|-
+! blog ou documentation
+| [[blog::{{{blog ou documentation|}}}]] 
+|}
+
+[[Catégorie:Projet]]
+</includeonly>

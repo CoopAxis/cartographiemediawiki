@@ -1,0 +1,41 @@
+<noinclude>
+Ceci est le modèle « Lieu ». Il devrait être appelé selon le format suivant :
+<pre>
+{{Lieu
+...
+}}
+</pre>
+Modifier la page pour voir le texte du modèle.
+</noinclude><includeonly>{| border="0"  class="table table-condensed table-striped" style="margin-bottom: 20px;"
+! scope="col" width="20%" | ''Attribut''
+! scope="col" width="80%" | ''Valeur''
+|-
+! Nom
+| [[name::{{{Nom|}}}]] 
+|-
+! Autre nom
+| [[alternateName::{{{Autre nom|}}}]] 
+|-
+! Adresse
+| [[address::{{{Adresse|}}}]]
+|-
+! Coordonnées géographiques
+| [[Position_géographique::{{{Position|}}}]] 
+|-
+! Accès
+| {{#arraymap:{{{Accès|}}}|,|x|[[access::x]]}}
+|-
+! Web
+| [[web_url::{{{Web|}}}]]
+|-
+! Facebook
+| [[facebook_url::{{{Facebook|}}}]]
+|}
+
+----
+
+{{#ask: [[location::{{FULLPAGENAME}}]] | intro='''Sont à cet endroit''' :_ | limit=10 | searchlabel=... ''voir la suite'' }}
+
+[[Catégorie:Lieu]]
+
+</includeonly>
